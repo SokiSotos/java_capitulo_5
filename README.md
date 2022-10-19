@@ -114,10 +114,10 @@ introducidos y la media.
 Escribe un programa que lea un número n e imprima una pirámide de números
 con n filas como en la siguiente figura:
 
-> 1
-> 121
-> 12321
-> 1234321
+'1'
+'121'
+'12321'
+'1234321'
 
 ## Ejercicio 25
 Realiza un programa que pida un número por teclado y que luego muestre ese
