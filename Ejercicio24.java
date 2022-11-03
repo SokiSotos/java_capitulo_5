@@ -4,7 +4,6 @@ public class Ejercicio24{
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduzca un numero");
         int n = sc.nextInt();
-        sc.close();
         int al = 1;
         int i = 0;
         int es = n - 1;
