@@ -20,6 +20,7 @@ public class Ejercicio68 {
     }
 
     System.out.println("Dislocando el " + copia + " sale el " + resultado);
+    s.close();
   }
 
 }

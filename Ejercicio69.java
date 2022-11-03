@@ -14,7 +14,7 @@ public class Ejercicio69 {
 
     while (planta <= alturaIntroducida) {
 
-      // Izquierda
+
       for (int i = 1; i <= espacios; i++) {
         System.out.print(' ');
       }
@@ -22,10 +22,10 @@ public class Ejercicio69 {
         System.out.print('*');
       }
 
-      // Centro
+
       System.out.print(planta % 2 == 1 ? "****" : "    ");
 
-      // Derecha
+
       for (int i = 0; i <= longitudDeLinea / 2; i++) {
         System.out.print('*');
       }
@@ -35,5 +35,6 @@ public class Ejercicio69 {
       espacios--;
       longitudDeLinea += 2;
     }
+    s.close();
   }
 }
